@@ -1,0 +1,46 @@
+
+
+<link rel="stylesheet" type="text/css" href="css/style.css"> 
+table {
+    width:100%;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #fff;
+}
+table#t01 tr:nth-child(6) {
+   background-color: #eee;
+   color: #000;
+
+}
+table#t01 tr:nth-child(11) {
+   background-color: #eee;
+   color: #000;
+
+}
+table#t01 tr:nth-child(16) {
+   background-color: #eee;
+   color: #000;
+
+}
+table#t01 tr:nth-child(21) {
+   background-color: #eee;
+   color: #000;
+
+}
+table#t01 th {
+    background-color: black;
+    color: white;
+}
+table, th, td.Day{
+  
+    
+    border-bottom:1px solid#fff !important;
+}
